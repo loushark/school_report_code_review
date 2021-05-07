@@ -10,6 +10,9 @@ class SchoolReport
     process_grades(grades)
     format_report(@green_count, @amber_count, @red_count)
   end
+  
+  
+  private
 
   def process_grades(grades)
     arr = grades.split(", ")
